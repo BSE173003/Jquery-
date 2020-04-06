@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Practise Task</title>
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("h1").click(function () {
+                $("h1").hide();
+            });
+            $(".ra").click(function () {
+                $(".ra").hide();
+            });
+            $(".rb").click(function () {
+                $(".rb").hide();
+            });
+            $(".rc").click(function () {
+                $(".rc").hide();
+            });
+        
+            $("h2").click(function () {
+                $("h2").hide();
+            });
+            $(".la").click(function () {
+                $(".la").hide();
+            });
+            $(".lb").click(function () {
+                $(".lb").hide();
+            });
+            $(".lc").click(function () {
+                $(".lc").hide();
+            });
+
+        });
+        
+            
+    </script>
+</head>
+<body>
+   
+    <h1>list1</h1>
+    <ul>
+        <li class="ra">coffee</li>
+        <li class="rb">tea</li>
+        <li class="rc">milk</li>
+
+    </ul>
+    <h2> list2</h2>
+    <ol>
+        <li class="la">coffee</li>
+        <li class="lb">tea</li>
+        <li class="lc">milk</li>
+    </ol>
+
+</body>
+</html>
